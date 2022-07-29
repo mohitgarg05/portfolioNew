@@ -3,7 +3,7 @@ import Main from './main.js'
 import About from './about.js'
 import Skills from './skills.js'
 import Project from './myprojects.js'
-import Resume from './resume.js'
+
 import Contact from './contact'
 import Fullpage , {FullPageSections  , FullpageNavigation , FullpageSection} from '@ap.cx/react-fullpage'
 const fullpage = () => {
