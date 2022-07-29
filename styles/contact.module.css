@@ -1,0 +1,157 @@
+.contact_bg_color{
+    z-index: 7;
+    background-color: rgb(43,61,79);
+    transform: translate3d(0px, 0px, 0px);
+    height: 100vh;
+    overflow: hidden;
+    opacity: 1;
+    position: relative;
+}
+
+.hori{
+    
+    margin-bottom: 40px;
+    width: 260px;
+    background: transparent linear-gradient(to right, transparent, #1cb8ee, transparent) repeat scroll 0 0;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.h1{
+    color: white;
+    letter-spacing: 2px;
+    padding-top: 15px;
+
+}
+
+.contact_about{
+    border: solid;
+    background: #2b3d4f;
+    border: 3px solid #374757;
+    box-shadow: 0 4px 5px rgb(37 50 66 / 70%);
+}
+.contact_location{
+   
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.h5{
+    color: #16c0f0;
+}
+
+.p{
+   margin: 0;
+}
+
+.contact_form{
+
+    border: solid;
+    background: #2b3d4f;
+    border: 3px solid #374757;
+    box-shadow: 0 4px 5px rgb(37 50 66 / 70%);
+    margin-left: 40px;
+    height: 550px;
+}
+
+
+
+.form{
+  
+    padding: 35px;
+}
+.input{
+    margin-bottom: 40px;
+    background-color: #304255;
+    font-size: 16px;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+    height: 56px;
+    padding: 12px;
+    writing-mode: horizontal-tb !important;
+}
+
+.input:focus{
+    border-bottom: 1px solid #16c0f0;
+    transition: all .9s ease-in;
+}
+.input[type=text]{
+    color: white;
+}
+
+.textArea{
+    margin-bottom: 30px;
+    font-size: 16px;
+    background-color: #304255;
+    color: #fff;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+    height: 100px;
+    padding: 12px;
+}
+
+.textArea:focus{
+    border-bottom: 1px solid #24A1C8;
+
+}
+
+.button{
+    width:160px;
+    border-radius: 40px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #16c0f0;
+    border-color: #16C0F0;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.button:hover{
+    background-color: #16c0f0;
+    color: white;
+}
+
+.icon{
+    transform: rotate(-30deg);
+    margin-left: 30px;
+    opacity: 0.1;
+   
+}
+
+.space{
+
+    
+    margin: auto;
+}
+.icon_size{
+    font-size: 60px;
+    opacity: 0. 1;
+    
+}
+
+.circle{
+    border: 2px solid #25aceb;
+    display: block;
+    position: absolute;
+    left:16.5%;
+    margin-top: -46px;
+    transform: translateX(-50%);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #25aceb;
+    transition: all .2s cubic-bezier(.47, 0, .745, .715);
+    animation: pulse2 1s infinite cubic-bezier(.66, 0, 0, 1);
+    box-shadow: 0 0 0 0 rgb(22 192 240 / 60%);  
+    box-sizing: border-box;
+}

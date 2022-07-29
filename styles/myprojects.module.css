@@ -1,0 +1,83 @@
+.project_bg_color{
+    background-color: rgb(43, 61, 79);
+    transform: translate3d(0px, 0px, 0px);
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.hori{
+    
+    margin-bottom: 40px;
+    width: 290px;
+    background: transparent linear-gradient(to right, transparent, #1cb8ee, transparent) repeat scroll 0 0;
+    opacity: 1;
+    margin-top: 5px;
+}   
+
+.h1{
+    color: white;
+    letter-spacing: 2px;
+    padding-top: 15px;
+
+}
+
+
+.circle{
+    border: 2px solid #25aceb;
+    display: block;
+    position: absolute;
+    left:16.5%;
+    margin-top: -45px;
+    transform: translateX(-50%);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #25aceb;
+    transition: all .2s cubic-bezier(.47, 0, .745, .715);
+    animation: pulse2 1s infinite cubic-bezier(.66, 0, 0, 1);
+    box-shadow: 0 0 0 0 rgb(22 192 240 / 60%);  
+    box-sizing: border-box;
+}
+
+.project_div{
+    border: solid;
+    border: 3px solid #374757;
+    box-shadow: 0 4px 5px rgb(37 50 66 / 70%);
+    padding: 9px;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.head{
+    color: #16c0f0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.para{
+    color: white;
+
+}
+
+.icon{
+    border: 2px solid #16c0f0;
+    border-radius: 50%;
+    color: #16c0f0;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.icon:hover {
+    color: white;
+    background-color: #16c0f0;
+}
+
+.ahref{
+    color: #16c0f0;
+}
+.ahref:hover{
+    color: white;
+}

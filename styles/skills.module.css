@@ -1,0 +1,55 @@
+.skill_bg_color{
+    background-color: #263446;
+    transform: translate3d(0px, 0px, 0px);
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.hori{
+    
+    margin-bottom: 40px;
+    width: 220px;
+    background: transparent linear-gradient(to right, transparent, #1cb8ee, transparent) repeat scroll 0 0;
+    opacity: 1;
+    margin-top: 5px;
+}   
+
+.h1{
+    color: white;
+    letter-spacing: 2px;
+    padding-top: 15px;
+
+}
+
+.circle{
+    border: 2px solid #25aceb;
+    display: block;
+    position: absolute;
+    left:14.5%;
+    margin-top: -45px;
+    transform: translateX(-50%);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #25aceb;
+    transition: all .2s cubic-bezier(.47, 0, .745, .715);
+    animation: pulse2 1s infinite cubic-bezier(.66, 0, 0, 1);
+    box-shadow: 0 0 0 0 rgb(22 192 240 / 60%);  
+    box-sizing: border-box;
+}
+
+
+.skill_div{
+    width: 77%;
+    margin: auto;
+    margin-top: 23px;
+    
+}
+
+.h3{
+    color: white;
+    font-size: 30px;
+    
+    width: 100px;
+}
