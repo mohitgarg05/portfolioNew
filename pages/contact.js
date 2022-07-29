@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import style from '../styles/contact.module.css'
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLocationDot ,faEnvelope , faPhone , faEarthAmerica} from '@fortawesome/free-solid-svg-icons'
