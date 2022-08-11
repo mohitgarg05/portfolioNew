@@ -20,6 +20,7 @@
     letter-spacing: 2px;
     padding-top: 15px;
 
+
 }
 
 
@@ -45,17 +46,22 @@
     border: 3px solid #374757;
     box-shadow: 0 4px 5px rgb(37 50 66 / 70%);
     padding: 9px;
-    width: 60%;
+    width: 30%;
     margin: auto;
     margin-top: 30px;
 }
+
+
 
 
 .head{
     color: #16c0f0;
     letter-spacing: 1px;
     text-transform: uppercase;
+    cursor: pointer;
 }
+
+
 
 .para{
     color: white;

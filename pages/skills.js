@@ -11,6 +11,22 @@ const skills = () => {
             </div>
             <div className={style.circle}></div>
             <div className='row'>
+            <div className={`${style.skill_div} row`}>
+                    <div className='col-md-auto'>
+                        <h3 className={style.h3}>HTML</h3>
+                    </div>
+                    <div className='col-md-8 offset-md-2'>
+                        <Progress done={75} />
+                    </div>
+                </div>
+                <div className={`${style.skill_div} row`}>
+                    <div className='col-md-auto'>
+                        <h3 className={style.h3}>CSS</h3>
+                    </div>
+                    <div className='col-md-8 offset-md-2'>
+                        <Progress done={60} />
+                    </div>
+                </div>
                 <div className={`${style.skill_div} row`}>
                     <div className='col-md-auto'>
                         <h3 className={style.h3}>Reactjs</h3>
@@ -59,22 +75,7 @@ const skills = () => {
                         <Progress done={70} />
                     </div>
                 </div>
-                <div className={`${style.skill_div} row`}>
-                    <div className='col-md-auto'>
-                        <h3 className={style.h3}>Heroku</h3>
-                    </div>
-                    <div className='col-md-8 offset-md-2'>
-                        <Progress done={60} />
-                    </div>
-                </div>
-                <div className={`${style.skill_div} row`}>
-                    <div className='col-md-auto'>
-                        <h3 className={style.h3}>Bootstrap</h3>
-                    </div>
-                    <div className='col-md-8 offset-md-2'>
-                        <Progress done={70} />
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>

@@ -180,8 +180,8 @@ body {
   justify-content: center;
   height: 100%;
   width: 0;
-  opacity: 0;
-  transition: 1s ease 0.3s;
+  /* opacity: 0; */
+  transition: 2s width;
 }
 
 #wrapper{

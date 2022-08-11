@@ -7,6 +7,11 @@ import { faTwitter ,faFacebook ,faInstagram ,faSnapchat , faLinkedin} from '@for
 import  '../styles/navbar.module.css'
 const Main = () => {
 
+  useEffect(() => {
+    console.log(document.body.scrollHeight);
+  }, [])
+  
+
   const textLines = [
     `Full Stack Web Developer .`,
     `Freelancer .`
@@ -36,7 +41,7 @@ const Main = () => {
             <p id="para">I &apos; m A <span > <Typed strings={textLines} typeSpeed={60} backSpeed={40}  loop /></span></p>
             <div className='row button_class'>
               <div className='col-md-3 button1'>
-                <button>Hire Me</button>
+                <button onClick={()=>window.scrollTo(1,document.body.scrollHeight*8)}>Hire Me</button>
               </div>
               <div className='col-md-3 offset-md-1 button2'>
               <a href='/resume_1.pdf' download><button>Download CV</button></a>

@@ -7,6 +7,7 @@ import Project from './myprojects.js'
 import Contact from './contact'
 import Fullpage , {FullPageSections  , FullpageNavigation , FullpageSection} from '@ap.cx/react-fullpage'
 const fullpage = () => {
+  
   return (
     <Fullpage>
         <FullpageNavigation />
