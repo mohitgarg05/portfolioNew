@@ -18,7 +18,7 @@ const myprojects = () => {
                   <Link href='https://dazzling-cat-b1a077.netlify.app/'><h5 className={style.head}>Pintrest Clone</h5></Link>
                 </div>
                 <p className={style.para}>June 15, 2022 - Ongoing</p>
-                <p className={style.para}>This project is basically clone of pintrest website where user's can create pins, post them , 
+                <p className={style.para}>This project is basically clone of pintrest website where user &apos; s can create pins, post them , 
                 follow other users , can see images of their interest . I use unsplash api to get images. Many functionalities are still incomplete but this project
                 really taught me many new things for building websites</p>
               </div>
@@ -28,7 +28,7 @@ const myprojects = () => {
                 </div>
                 <p className={style.para}>Febrary 10, 2022 - May. 20, 2022</p>
                 <p className={style.para}> BTP(B.Tech Project) . This website collects data from three different foreign websites
-                by Web Scrapping using shopify API. It collects price of same shoes from different websites and compare it for user's  by productId . We worked in a team of 3 members where my role is to build frontend</p>
+                by Web Scrapping using shopify API. It collects price of same shoes from different websites and compare it for user &apos; s  by productId . We worked in a team of 3 members where my role is to build frontend</p>
               </div>
               <div className={`${style.project_div} `}>
 
